@@ -6,8 +6,8 @@
 
 .main_function{
   height: 3.5em;
-  background-color: #aaa; // for show area
-  @include container($container-phone);
+  // background-color: #aaa; // for show area
+  @include container();
   @include breakpoint($breakpoint-medium) {
     height: 5em;
     @include container($container-pad);
@@ -17,4 +17,18 @@
     @include container($container-desktop);
 
   };
+}
+
+
+.main_map{
+
+  //壓地圖材質
+
+  #map {
+    height: 380px;
+    opacity: 0.75;
+    @include breakpoint($breakpoint-medium) {
+      height: 600px;
+    };
+  }
 }

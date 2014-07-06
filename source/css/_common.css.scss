@@ -7,6 +7,10 @@
   background-color: $wl-bg;
  }
 
+ .qrow {
+  @include break; //clearfix<
+ }
+
 .header {
   background-color: $wl-header;
   height: 38px;
@@ -14,8 +18,8 @@
   text-align: center;
   border-bottom: 1px solid darken($wl-header, 10%);
   @include breakpoint($breakpoint-medium) {
-    height: 88px;
-    padding-top: 28px;
+    height: 78px;
+    padding-top: 24px;
   };
   h1 {
     color: $wl-pink;
