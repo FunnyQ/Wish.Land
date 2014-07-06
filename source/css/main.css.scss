@@ -1,15 +1,21 @@
 ////////////////////////////////////////////////////////////
-@import "_normalize"; // unstyle everything
-@import "_html5b_init"; // HTML5 Boilerplate
+@import "normalize"; // unstyle everything
+@import "html5b_init"; // HTML5 Boilerplate
+@import "bs_variables"; // 方便變更 bootstrap 的變數
+@import "bootstrap"; // bjs
 @import "compass/css3"; // compass css3 mixin
 @import "susy"; // susy css math toolkit
+@import "breakpoint";
+@import "font-awesome"; // font icon
 ////////////////////////////////////////////////////////////
 
+@import "color"; // 顏色變數
+@import "screensize"; // breakpoint 變數
 
-
+@import "common"; // 跨頁元件（BODY HEADER FOOTER NAVBAR...等）
 
 
 
 ////////////////////////////////////////////////////////////
-@import "_html5b_helper"; // HTML5 Boilerplate;
+@import "html5b_helper"; // HTML5 Boilerplate;
 ////////////////////////////////////////////////////////////

@@ -1,0 +1,28 @@
+/*
+ *
+ * COMMON
+ *
+ */
+
+.header {
+  background-color: $wl-header;
+  height: 38px;
+  padding-top: 8px;
+  text-align: center;
+  border-bottom: 1px solid darken($wl-header, 10%);
+  @include breakpoint($breakpoint-medium) {
+    height: 88px;
+    padding-top: 28px;
+  };
+  h1 {
+    color: $wl-pink;
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    margin-top: 0;
+    font-weight: normal;
+    @include breakpoint($breakpoint-medium) {
+      font-size: 2em;
+    };
+  }
+
+}
