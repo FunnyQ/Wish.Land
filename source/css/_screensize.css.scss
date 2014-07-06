@@ -1,7 +1,12 @@
 /*
  *
- * 定義 breakpoint 需要的變數
+ * 定義螢幕尺寸變數
  *
  */
 
- $breakpoint-medium: 480px;
+$breakpoint-medium: 480px;
+$breakpoint-desktop: 768px;
+
+$container-phone: 320px;
+$container-pad: 768px;
+$container-desktop: 960px;

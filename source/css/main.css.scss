@@ -9,10 +9,18 @@
 @import "font-awesome"; // font icon
 ////////////////////////////////////////////////////////////
 
-@import "color"; // 顏色變數
-@import "screensize"; // breakpoint 變數
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
 
+@import "color"; // 顏色變數
+@import "screensize"; // 螢幕尺寸
 @import "common"; // 跨頁元件（BODY HEADER FOOTER NAVBAR...等）
+@import "index";
 
 
 

@@ -1,13 +1,16 @@
 /*
  *
- * COMMON
+ * 跨頁元件（BODY HEADER FOOTER NAVBAR...等）
  *
  */
+ body {
+  background-color: $wl-bg;
+ }
 
 .header {
   background-color: $wl-header;
   height: 38px;
-  padding-top: 8px;
+  padding-top: 9px;
   text-align: center;
   border-bottom: 1px solid darken($wl-header, 10%);
   @include breakpoint($breakpoint-medium) {
@@ -17,7 +20,7 @@
   h1 {
     color: $wl-pink;
     font-size: 1.3em;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     margin-top: 0;
     font-weight: normal;
     @include breakpoint($breakpoint-medium) {
