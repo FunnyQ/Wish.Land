@@ -4,33 +4,55 @@
  *
  */
 
- body {
+body {
   background-color: $wl-bg;
- }
+}
 
- .qrow {
+.qrow {
   @include break; //clearfix
- }
+}
 
-.header {
-  background-color: $wl-header;
+.wraper {
+  @include container($container-phone);
+
+  @include breakpoint($breakpoint-medium) {
+    @include container($container-pad);
+  };
+
+  @include breakpoint($breakpoint-desktop) {
+    @include container($container-desktop);
+  };
+}
+
+.site_header {
+  background-color: $wl-siteheader;
   height: 38px;
   padding-top: 9px;
   text-align: center;
-  border-bottom: 1px solid darken($wl-header, 10%);
+  border-bottom: 1px solid darken($wl-header, 5%);
+
   @include breakpoint($breakpoint-medium) {
     height: 78px;
     padding-top: 24px;
   };
+
   h1 {
     color: $wl-pink;
     font-size: 1.3em;
     letter-spacing: 0.2em;
     margin-top: 0;
     font-weight: normal;
+
     @include breakpoint($breakpoint-medium) {
       font-size: 2em;
     };
   }
 
+}
+
+footer {
+  height: 50px;
+  background-color: darken($wl-pink, 5%);
+  background-image: url(../img/asset/footer-stripe.png);
+  border-top: 1px solid #999;
 }

@@ -26,15 +26,28 @@ title: "Wish.Land :: 最棒的活動平台"
 
       </div>
     </div>
-  </div>
-<!-- end of map -->
+  </div><!-- end of map -->
 </div>
 
 <!-- event -->
 <div class="qrow">
-<!-- event -->
+<!-- events -->
+  <div class="events">
+    <div class="wraper">
+      <div class="header">
+        <h3><i class="fa fa-star fa-lg"></i> 精選活動</h3>
+      </div>
 
-<!-- end of event -->
+      <!-- event unit -->
+      <% 15.times do |e| %>
+
+      <div class="event">
+        <img src="<%= lorem.image('600x800', :text => 'event unit') %>" alt="" class="img-responsive">
+      </div>
+
+      <% end %><!-- end of event unit -->
+    </div>
+  </div><!-- end of events -->
 </div>
 
 

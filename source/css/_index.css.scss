@@ -64,3 +64,21 @@
     };
   }
 }
+
+.events {
+  padding: 20px 0;
+
+  .header {
+    text-align: center;
+    color: $wl-header;
+  }
+  .event {
+    @include span(12);
+    margin-top: 15px;
+
+
+    @include breakpoint($breakpoint-medium) {
+      @include span(3);
+    };
+  }
+}
