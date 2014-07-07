@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v1.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -9215,6 +9216,285 @@ button.close {
 /* line 507, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/font-awesome-middleman-4.1.1/app/assets/stylesheets/font-awesome/_icons.scss */
 .fa-bomb:before {
   content: "\f1e2"; }
+
+/*
+ *
+ * 定義顏色變數
+ *
+ */
+/*
+ *
+ * 定義螢幕尺寸變數
+ *
+ */
+/*
+ *
+ * 跨頁元件（BODY HEADER FOOTER NAVBAR...等）
+ *
+ */
+/* line 8, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+body {
+  background-color: #fafafa; }
+
+/* line 12, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+.qrow {
+  clear: both; }
+
+/* line 16, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+.wraper {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  .wraper:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  @media (min-width: 480px) {
+    /* line 16, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+    .wraper {
+      max-width: 768px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      .wraper:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+  @media (min-width: 768px) {
+    /* line 16, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+    .wraper {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      .wraper:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+
+/* line 28, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+.site_header {
+  background-color: whitesmoke;
+  height: 38px;
+  padding-top: 9px;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8; }
+  @media (min-width: 480px) {
+    /* line 28, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+    .site_header {
+      height: 78px;
+      padding-top: 24px; } }
+  /* line 40, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+  .site_header h1 {
+    color: #de4c5f;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+    margin-top: 0;
+    font-weight: normal; }
+    @media (min-width: 480px) {
+      /* line 40, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+      .site_header h1 {
+        font-size: 2em; } }
+
+/* line 54, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+.text-highlight {
+  color: #da3a4c; }
+
+/* line 58, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_common.css.scss */
+footer {
+  height: 50px;
+  background-color: #da364c;
+  background-image: url(../img/asset/footer-stripe.png);
+  border-top: 1px solid #999; }
+
+/*
+ *
+ * 主頁面
+ *
+ */
+/* line 8, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+.main_function {
+  height: 3.5em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  .main_function:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  @media (min-width: 480px) {
+    /* line 8, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+    .main_function {
+      height: 5em;
+      max-width: 768px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      .main_function:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+  @media (min-width: 768px) {
+    /* line 8, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+    .main_function {
+      height: 6em;
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      .main_function:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+
+/* line 24, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+.main_map {
+  position: relative; }
+  /* line 28, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+  .main_map #map {
+    height: 380px;
+    opacity: 0.75; }
+    @media (min-width: 480px) {
+      /* line 28, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map #map {
+        height: 600px; } }
+  /* line 37, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+  .main_map .map_overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 380px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+    @media (min-width: 480px) {
+      /* line 37, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .map_overlay {
+        height: 600px; } }
+  /* line 53, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+  .main_map .detail {
+    width: 100%;
+    height: 380px;
+    background-color: #fff;
+    overflow: scroll;
+    float: right;
+    -moz-box-shadow: black 0 0 15px;
+    -webkit-box-shadow: black 0 0 15px;
+    box-shadow: black 0 0 15px; }
+    @media (min-width: 480px) {
+      /* line 53, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail {
+        width: 400px;
+        height: 600px; } }
+    /* line 68, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+    .main_map .detail .tab {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 33.33333%;
+      float: left;
+      padding-left: 0.83333%;
+      padding-right: 0.83333%;
+      height: 30px;
+      padding-top: 5px;
+      border-bottom: 1px solid #cfcfcf;
+      border-right: 1px solid #cfcfcf;
+      background-color: #fafafa;
+      text-align: center; }
+      /* line 76, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail .tab:hover {
+        background-color: #e1e1e1; }
+      /* line 80, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail .tab.active {
+        background-color: #de4c5f;
+        color: #eee; }
+    /* line 90, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+    .main_map .detail .event-info .info {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 0.83333%;
+      padding-right: 0.83333%;
+      padding: 10px 15px; }
+    /* line 96, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+    .main_map .detail .personal {
+      border-top: 1px solid #cfcfcf;
+      padding: 10px 0; }
+      /* line 99, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail .personal .wraper {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto; }
+        /* line 12, /Users/funnyq/.rvm/gems/ruby-2.0.0-p481/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+        .main_map .detail .personal .wraper:after {
+          content: " ";
+          display: block;
+          clear: both; }
+      /* line 102, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail .personal .avatar {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 33.33333%;
+        float: left;
+        padding-left: 0.83333%;
+        padding-right: 0.83333%;
+        padding: 15px; }
+      /* line 106, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail .personal .personal-info {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 66.66667%;
+        float: left;
+        padding-left: 0.83333%;
+        padding-right: 0.83333%;
+        padding: 30px 0 0 0; }
+        /* line 109, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+        .main_map .detail .personal .personal-info a {
+          color: #da3a4c; }
+    /* line 115, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+    .main_map .detail .join {
+      height: 50px;
+      background-color: #de4c5f;
+      text-align: center;
+      font-size: 2.5em;
+      color: #fff; }
+      /* line 121, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .main_map .detail .join p {
+        margin-bottom: 0; }
+
+/* line 128, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+.events {
+  padding: 20px 0; }
+  /* line 131, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+  .events .header {
+    text-align: center;
+    color: #555555; }
+  /* line 135, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+  .events .event {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    margin-top: 15px; }
+    @media (min-width: 480px) {
+      /* line 135, /Volumes/Macintosh HD/SystemFolders/Dropbox/workSync/Projects_cloud/wishLand/source/css/_index.css.scss */
+      .events .event {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 25%;
+        float: left;
+        padding-left: 0.83333%;
+        padding-right: 0.83333%; } }
 
 /* ==========================================================================
    Helper classes
