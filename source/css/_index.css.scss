@@ -27,6 +27,7 @@
   #map {
     height: 380px;
     opacity: 0.75;
+
     @include breakpoint($breakpoint-medium) {
       height: 600px;
     };
@@ -42,6 +43,7 @@
     top: 0;
     left: 0;
     background-color: rgba(#000, 0.5);
+
     @include breakpoint($breakpoint-medium) {
       height: 600px;
     }
@@ -53,6 +55,8 @@
     // margin-right: -320px; // 藏在右邊
     background-color: #eee;
     float: right;
+    @include box-shadow(#000 0 0 15px);
+
     @include breakpoint($breakpoint-medium) {
       width: 400px;
       height: 600px;
