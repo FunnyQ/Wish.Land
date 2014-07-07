@@ -1,7 +1,7 @@
-#= require "vendor/jquery-1.8.0.min.js"
+#= require "vendor/_jquery-1.8.0.min.js"
 #= require "bootstrap-sprockets"
-#= require "vendor/jquery.tinyMap.min.js"
-#= require "vendor/markerclusterer.js"
+#= require "vendor/_jquery.tinyMap.min.js"
+#= require "vendor/_markerclusterer.js"
 # Avoid `console` errors in browsers that lack a console.
 unless window.console and console.log
   (->

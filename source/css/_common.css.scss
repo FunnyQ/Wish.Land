@@ -29,7 +29,7 @@ body {
   height: 38px;
   padding-top: 9px;
   text-align: center;
-  border-bottom: 1px solid darken($wl-header, 5%);
+  border-bottom: 1px solid darken($wl-siteheader, 5%);
 
   @include breakpoint($breakpoint-medium) {
     height: 78px;

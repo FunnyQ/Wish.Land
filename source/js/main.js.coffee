@@ -76,3 +76,11 @@ $ ->
     markerCluster: true
 
   return
+
+$ ->
+   $('.carousel').carousel
+    interval: 8000
+    pause: true
+    interval: false
+
+  return
