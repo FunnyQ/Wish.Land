@@ -37,19 +37,19 @@ title: "Wish.Land :: 最棒的活動平台"
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="<%= lorem.image('720x380', :text => 'event pics1', :random_color => true) %>" alt="...">
+                <img src="<%= lorem.image('720x300', :text => 'event pics1', :random_color => true) %>" alt="...">
                 <div class="carousel-caption">
                   <p><%= lorem.words 3 %></p>
                 </div>
               </div>
               <div class="item">
-                <img src="<%= lorem.image('720x380', :text => 'event pics2', :random_color => true) %>" alt="...">
+                <img src="<%= lorem.image('720x300', :text => 'event pics2', :random_color => true) %>" alt="...">
                 <div class="carousel-caption">
                   <p><%= lorem.words 3 %></p>
                 </div>
               </div>
               <div class="item">
-                <img src="<%= lorem.image('720x380', :text => 'event pics3', :random_color => true) %>" alt="...">
+                <img src="<%= lorem.image('720x300', :text => 'event pics3', :random_color => true) %>" alt="...">
                 <div class="carousel-caption">
                   <p><%= lorem.words 3 %></p>
                 </div>
@@ -73,6 +73,50 @@ title: "Wish.Land :: 最棒的活動平台"
             <p>相關活動</p>
           </div>
         </div><!-- end of tabs -->
+
+        <!-- content -->
+        <div class="qrow content">
+
+          <div class="event-info">
+
+            <div class="event-time info">
+              <h4><i class="fa fa-clock-o fa-lg"></i> 活動時間</h4>
+              <p><span><%= lorem.date %></span> | <span>18:00</span> 至 <span>21:00</span></p>
+            </div>
+            <div class="event-locate info">
+              <h4><i class="fa fa-map-marker fa-lg"></i> 活動地點</h4>
+              <p>台北小巨蛋 | 台北市松山區南京東路四段 2 號</p>
+            </div>
+            <div class="event-fee info">
+              <h4><i class="fa fa-money fa-lg"></i> 費用資訊</h4>
+              <p><span class="text-highlight">FREE</span></p>
+            </div>
+            <div class="event-cal info">
+              <h4><i class="fa fa-calendar"></i> 活動場次</h4>
+              <p>此活動只有一個場次時間</p>
+            </div>
+
+          </div>
+
+        </div><!-- end of content -->
+
+        <!-- personal -->
+        <div class="qrow personal">
+            <div class="wraper">
+              <div class="avatar">
+                <img src="<%= lorem.image('350x350', :text => 'avatar', :random_color => true) %>" alt="" class="img-responsive img-circle">
+              </div>
+              <div class="personal-info">
+                <p>此活動與你距離約 <span class="text-highlight">5.5</span> 公里</p>
+                <a href="#"><i class="fa fa-heart"></i> 加入我的活動候選清單</a>
+              </div>
+            </div>
+        </div><!-- end of personal -->
+
+        <!-- JOIN -->
+        <div class="qrow join">
+          <p>JOIN <i class="fa fa-plus"></i></p>
+        </div>
 
       </div>
     </div>

@@ -50,6 +50,10 @@ body {
 
 }
 
+.text-highlight {
+  color: $wl-highlight-text;
+}
+
 footer {
   height: 50px;
   background-color: darken($wl-pink, 5%);

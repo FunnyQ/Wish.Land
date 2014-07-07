@@ -54,6 +54,7 @@
     height: 380px;
     // margin-right: -320px; // 藏在右邊
     background-color: #fff;
+    overflow: scroll;
     float: right;
     @include box-shadow(#000 0 0 15px);
 
@@ -81,6 +82,43 @@
         // &:hover {
         //   background-color: lighten($wl-tab-active, 10%);
         // }
+      }
+    }
+
+    .event-info {
+      .info {
+        @include span(12);
+        padding: 10px 15px;
+      }
+    }
+
+    .personal {
+      border-top: 1px solid darken($wl-siteheader, 15%);
+      padding: 10px 0;
+      .wraper {
+        @include container(80%);
+      }
+      .avatar {
+        @include span(4);
+        padding: 15px;
+      }
+      .personal-info {
+        @include span(8);
+        padding: 30px 0 0 0;
+        a {
+          color: $wl-highlight-text;
+        }
+      }
+    }
+
+    .join {
+      height: 50px;
+      background-color: $wl-pink;
+      text-align: center;
+      font-size: 2.5em;
+      color: #fff;
+      p {
+        margin-bottom: 0;
       }
     }
   }
