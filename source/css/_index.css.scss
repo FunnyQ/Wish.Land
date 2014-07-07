@@ -21,7 +21,7 @@
 
 
 .main_map{
-
+  position: relative; // 讓 .map_overlay 可運作
   //壓地圖材質
 
   #map {
@@ -29,6 +29,34 @@
     opacity: 0.75;
     @include breakpoint($breakpoint-medium) {
       height: 600px;
+    };
+  }
+
+  .map_overlay {
+    position: absolute; // for divs overlay
+    overflow: hidden; // 讓 detail 面板可以隱藏
+    // display: none;
+    // pointer-events: none; // 忽略本層的指標動作，讓 user 可直接操作地圖
+    width: 100%;
+    height: 380px;
+    top: 0;
+    left: 0;
+    background-color: rgba(#000, 0.5);
+    @include breakpoint($breakpoint-medium) {
+      height: 600px;
+    }
+  }
+
+  .detail {
+    width: 100%;
+    height: 380px;
+    // margin-right: -320px; // 藏在右邊
+    background-color: #eee;
+    float: right;
+    @include breakpoint($breakpoint-medium) {
+      width: 400px;
+      height: 600px;
+      // margin-right: -400px;
     };
   }
 }
