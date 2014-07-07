@@ -71,10 +71,16 @@
       border-right: 1px solid darken($wl-siteheader, 15%);
       background-color: $wl-tab;
       text-align: center;
+      &:hover {
+        background-color: darken($wl-tab, 10%);
+      }
 
       &.active {
         background-color: $wl-tab-active;
         color: #eee;
+        // &:hover {
+        //   background-color: lighten($wl-tab-active, 10%);
+        // }
       }
     }
   }
